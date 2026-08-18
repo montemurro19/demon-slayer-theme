@@ -1,0 +1,11 @@
+.github/**
+.vscode/**
+samples/**
+src/**
+node_modules/**
+.editorconfig
+.gitignore
+.vscodeignore
+CONTRIBUTING.md
+images/README.md
+images/preview-*.png

@@ -1,0 +1,77 @@
+import { definePalette } from './_schema.mjs';
+
+// Warm charcoal of the uniform, cream from the top of the haori in the text and
+// the yellow of the lightning as accent — high contrast, everything charged.
+// The orange is the haori hem; the brown of Chuntaro holds the types; the pale
+// blue is the spark.
+export default definePalette({
+  id: 'zenitsu',
+  label: 'Demon Slayer — Zenitsu Agatsuma',
+  type: 'dark',
+
+  ui: {
+    bg: '#1A1712',
+    bgDeep: '#100E0A',
+    bgAlt: '#221E17',
+    bgElevated: '#2C271E',
+    fg: '#F5EEDC',
+    fgMuted: '#B5A88C',
+    fgSubtle: '#8C8069',
+    border: '#332D22',
+    accent: '#FFE066',
+    accentAlt: '#F2833D',
+    selection: '#4A3D1E',
+    lineHighlight: '#221E17',
+    cursor: '#FFE066',
+    error: '#F2555A',
+    warning: '#F2A93D',
+    info: '#8AC8E0',
+    success: '#9ACD68',
+    added: '#9ACD68',
+    modified: '#8AC8E0',
+    removed: '#F2555A',
+    ignored: '#6E6555',
+  },
+
+  ansi: {
+    black: '#100E0A',
+    red: '#F2555A',
+    green: '#9ACD68',
+    yellow: '#FFE066',
+    blue: '#8AC8E0',
+    magenta: '#E8B98C',
+    cyan: '#A8DCC4',
+    white: '#DED6C2',
+    brightBlack: '#8C8069',
+    brightRed: '#FF7A7E',
+    brightGreen: '#B5E085',
+    brightYellow: '#FFEE9B',
+    brightBlue: '#A8DCF0',
+    brightMagenta: '#E8C29B',
+    brightCyan: '#C2EBDA',
+    brightWhite: '#FFFAEC',
+  },
+
+  syntax: {
+    comment: '#8F8369',
+    keyword: '#F2833D',
+    storage: '#F2833D',
+    string: '#CBDB6E',
+    stringEscape: '#FFEE9B',
+    number: '#8AC8E0',
+    constant: '#8AC8E0',
+    function: '#FFE066',
+    variable: '#F5EEDC',
+    parameter: '#D6CBAE',
+    property: '#E8D9A0',
+    class: '#E8B98C',
+    type: '#E8B98C',
+    operator: '#B5A88C',
+    punctuation: '#948968',
+    tag: '#F2833D',
+    attribute: '#FFE066',
+    regexp: '#A8DCC4',
+    decorator: '#F2A93D',
+    invalid: '#F2555A',
+  },
+});

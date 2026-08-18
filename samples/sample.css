@@ -1,0 +1,16 @@
+:root {
+  --accent: #2fbf9b;
+  --bg: rgb(18 23 26 / 100%);
+}
+
+.slayer-card::after {
+  content: "⚔";
+  color: var(--accent);
+  transition: transform 200ms ease-in-out;
+}
+
+@media (prefers-color-scheme: dark) {
+  .slayer-card:hover > .rank[data-hashira="true"] {
+    transform: translateY(-2px) scale(1.02);
+  }
+}

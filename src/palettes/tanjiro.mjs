@@ -1,0 +1,77 @@
+import { definePalette } from './_schema.mjs';
+
+// Charcoal with a wine cast, from his hair and burgundy eyes. The green of the
+// checkered haori is the accent, the burgundy becomes keywords and the gold of
+// the hanafuda earrings becomes functions. The jump between surfaces is the
+// widest of the set on purpose: that is the checker pattern.
+export default definePalette({
+  id: 'tanjiro',
+  label: 'Demon Slayer — Tanjiro Kamado',
+  type: 'dark',
+
+  ui: {
+    bg: '#191316',
+    bgDeep: '#0E0B0D',
+    bgAlt: '#221A1E',
+    bgElevated: '#2B2126',
+    fg: '#EDE3DC',
+    fgMuted: '#A89189',
+    fgSubtle: '#8B746F',
+    border: '#33262B',
+    accent: '#45C58B',
+    accentAlt: '#F2B33D',
+    selection: '#4A3038',
+    lineHighlight: '#211A1D',
+    cursor: '#45C58B',
+    error: '#E5484F',
+    warning: '#F2B33D',
+    info: '#5AA9D6',
+    success: '#45C58B',
+    added: '#45C58B',
+    modified: '#5AA9D6',
+    removed: '#E5484F',
+    ignored: '#6B5651',
+  },
+
+  ansi: {
+    black: '#0E0B0D',
+    red: '#E5484F',
+    green: '#45C58B',
+    yellow: '#F2B33D',
+    blue: '#5AA9D6',
+    magenta: '#E06B78',
+    cyan: '#7FD4C0',
+    white: '#D6C8C0',
+    brightBlack: '#8B746F',
+    brightRed: '#F2707A',
+    brightGreen: '#6FD9A5',
+    brightYellow: '#F5C76B',
+    brightBlue: '#83C3E5',
+    brightMagenta: '#ED8F99',
+    brightCyan: '#9FE2D2',
+    brightWhite: '#F7F1EC',
+  },
+
+  syntax: {
+    comment: '#907972',
+    keyword: '#E06B78',
+    storage: '#E06B78',
+    string: '#45C58B',
+    stringEscape: '#F28F5B',
+    number: '#5AA9D6',
+    constant: '#5AA9D6',
+    function: '#F2B33D',
+    variable: '#EDE3DC',
+    parameter: '#C9B4AC',
+    property: '#9FD9BE',
+    class: '#7FD4C0',
+    type: '#7FD4C0',
+    operator: '#A89189',
+    punctuation: '#907A73',
+    tag: '#E06B78',
+    attribute: '#45C58B',
+    regexp: '#F28F5B',
+    decorator: '#F28F5B',
+    invalid: '#E5484F',
+  },
+});

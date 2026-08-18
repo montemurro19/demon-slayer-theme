@@ -1,0 +1,296 @@
+{
+  "name": "demon-slayer-theme",
+  "displayName": "Demon Slayer Theme",
+  "description": "Forty-eight color themes for VS Code: twenty-four Demon Slayer characters, each in a dark and a light variant.",
+  "version": "0.1.0",
+  "publisher": "MatheusMontemurro",
+  "license": "MIT",
+  "author": "Matheus Montemurro",
+  "private": false,
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark",
+    "light",
+    "anime",
+    "demon slayer",
+    "kimetsu no yaiba",
+    "hashira",
+    "oni",
+    "tanjiro",
+    "nezuko",
+    "rengoku",
+    "muzan"
+  ],
+  "galleryBanner": {
+    "color": "#181726",
+    "theme": "dark"
+  },
+  "icon": "images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matheus-montemurro/demon-slayer-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/matheus-montemurro/demon-slayer-theme/issues"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Demon Slayer — Tanjiro Kamado",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tanjiro-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Tanjiro Kamado (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/tanjiro-light-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Nezuko Kamado",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nezuko-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Nezuko Kamado (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/nezuko-light-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Zenitsu Agatsuma",
+        "uiTheme": "vs-dark",
+        "path": "./themes/zenitsu-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Zenitsu Agatsuma (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/zenitsu-light-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Inosuke Hashibira",
+        "uiTheme": "vs-dark",
+        "path": "./themes/inosuke-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Inosuke Hashibira (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/inosuke-light-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Giyu Tomioka",
+        "uiTheme": "vs-dark",
+        "path": "./themes/giyu-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Giyu Tomioka (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/giyu-light-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Shinobu Kocho",
+        "uiTheme": "vs-dark",
+        "path": "./themes/shinobu-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Shinobu Kocho (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/shinobu-light-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Kyojuro Rengoku",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rengoku-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Kyojuro Rengoku (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/rengoku-light-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Tengen Uzui",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tengen-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Tengen Uzui (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/tengen-light-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Mitsuri Kanroji",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mitsuri-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Mitsuri Kanroji (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/mitsuri-light-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Muichiro Tokito",
+        "uiTheme": "vs-dark",
+        "path": "./themes/muichiro-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Muichiro Tokito (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/muichiro-light-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Obanai Iguro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/obanai-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Obanai Iguro (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/obanai-light-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Sanemi Shinazugawa",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sanemi-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Sanemi Shinazugawa (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/sanemi-light-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Gyomei Himejima",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gyomei-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Gyomei Himejima (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/gyomei-light-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Muzan Kibutsuji",
+        "uiTheme": "vs-dark",
+        "path": "./themes/muzan-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Muzan Kibutsuji (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/muzan-light-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Kokushibo",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kokushibo-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Kokushibo (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/kokushibo-light-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Doma",
+        "uiTheme": "vs-dark",
+        "path": "./themes/doma-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Doma (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/doma-light-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Akaza",
+        "uiTheme": "vs-dark",
+        "path": "./themes/akaza-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Akaza (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/akaza-light-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Hantengu",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hantengu-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Hantengu (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/hantengu-light-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Gyokko",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gyokko-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Gyokko (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/gyokko-light-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Gyutaro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gyutaro-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Gyutaro (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/gyutaro-light-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Daki",
+        "uiTheme": "vs-dark",
+        "path": "./themes/daki-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Daki (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/daki-light-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Enmu",
+        "uiTheme": "vs-dark",
+        "path": "./themes/enmu-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Enmu (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/enmu-light-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Rui",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rui-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Rui (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/rui-light-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Tamayo",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tamayo-color-theme.json"
+      },
+      {
+        "label": "Demon Slayer — Tamayo (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/tamayo-light-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "node src/build/index.mjs",
+    "check": "node src/build/index.mjs --check",
+    "package": "npm run build && vsce package",
+    "publish": "npm run build && vsce publish"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.2.1"
+  }
+}
